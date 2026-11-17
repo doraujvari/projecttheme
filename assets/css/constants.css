@@ -1,0 +1,29 @@
+/*
+ * Constants
+ *
+ * Keep colors and reusable theme values here.
+ */
+:root {
+  --theme-color-primary: #FF3714;
+  --theme-color-secondary: #FF97DC;
+  --theme-color-tetrary: #FFE812;
+  --theme-color-quaternary: #9B299B;
+  --theme-color-fifth: #217FFF;
+  --theme-color-sixth: #1FE5CD;
+  --theme-color-seventh: #77E21A;
+  --theme-color-eighth: #FF65CE;
+  --theme-color-background-primary: #FFFFFF;
+  --theme-color-background-secondary: #FFF7F5;
+  --theme-color-highlight: #FFC7BE;
+  --theme-color-button-default: #AE270F;
+  --theme-color-text-primary: #1E1E1E;
+
+  --theme-transition: all 0.3s ease-in-out;
+
+  --theme-font-body: 'Figtree', sans-serif;
+  --theme-font-heading: 'Figtree', sans-serif;
+  --theme-line-height-body: 1.5;
+  --theme-fonst-size-body: 20px;
+  --theme-font-size-heading: 72px;
+  --theme-font-size-subheading: 32px;
+}

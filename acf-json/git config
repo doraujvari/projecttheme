@@ -1,0 +1,2 @@
+git config --global user.email "dora.ujvari@edu.fh-joanneum.at"
+git config --global user.name "dora.ujvari"
