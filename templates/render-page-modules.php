@@ -77,6 +77,12 @@ while (have_rows('page_modules')) : the_row();
 
     case 'google_map':
       get_template_part('template-parts/flex/layout', 'google-map'); break;
+
+    case 'project_highlight':
+      get_template_part('template-parts/flex/layout', 'project-highlight'); break;
+
+    case 'landing_page':
+      get_template_part('template-parts/flex/layout', 'landing-page'); break;
   }
 
   if (function_exists('section_close')) {

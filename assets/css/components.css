@@ -39,3 +39,100 @@
 .projecttheme-image-slider .carousel-item img {
   object-fit: cover;
 }
+
+/*** Landing Page ***/
+
+.projecttheme-landing-page {
+  background: linear-gradient(135deg, var(--theme-color-background-secondary) 0%, #ffffff 100%);
+  border-radius: 2rem;
+  padding: clamp(2rem, 4vw, 5rem);
+}
+
+.projecttheme-landing-page__eyebrow {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--theme-color-primary);
+}
+
+.projecttheme-landing-page__title {
+  margin-bottom: 1.25rem;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+  color: var(--theme-color-text-primary);
+}
+
+.projecttheme-landing-page__text {
+  max-width: 40rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(30, 30, 30, 0.8);
+}
+
+.projecttheme-landing-page__actions {
+  margin-top: 1rem;
+}
+
+.projecttheme-landing-page__cta-primary,
+.projecttheme-landing-page__cta-secondary {
+  min-width: 11rem;
+  font-weight: 600;
+}
+
+.projecttheme-landing-page__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 1.5rem 3rem rgba(30, 30, 30, 0.08);
+}
+
+/* Landing page — Figma node 17:733 */
+.projecttheme-landing-page--figma {
+  width: 100%;
+  min-height: clamp(32rem, 68vw, 68.4375rem);
+  overflow: hidden;
+  background: #f5f5f5;
+  border-radius: 0;
+  padding: 0;
+}
+
+.projecttheme-landing-page--figma .projecttheme-landing-page__image,
+.projecttheme-landing-page__image--figma {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.projecttheme-landing-page--figma:has(.projecttheme-landing-page__image) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+  .projecttheme-landing-page {
+    padding: 2rem 1.5rem;
+  }
+
+  .projecttheme-landing-page__title {
+    font-size: clamp(2.2rem, 9vw, 3.4rem);
+  }
+
+  .projecttheme-landing-page--figma {
+    min-height: 0;
+  }
+
+  .projecttheme-landing-page--figma .projecttheme-landing-page__image {
+    width: 100%;
+  }
+}
